@@ -110,7 +110,69 @@
   margin-top: -10px !important;
 }
 
+/*margin-bottom補充定義*/
 
+.mb-4p5,
+.my-4p5 {
+	margin-bottom: 2.25rem;
+}
+
+.mb-5p25,
+.my-5p25 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-5p5,
+.my-5p5 {
+  margin-bottom: 6rem !important;
+}
+
+
+.mb-6,
+.my-6 {
+  margin-bottom: 8rem !important;
+}
+
+.mb-6p5,
+.my-6p5 {
+  margin-bottom: 12rem !important;
+}
+
+.mb-7,
+.my-7 {
+  margin-bottom: 16rem !important;
+}
+
+.mb-7p5,
+.my-7p5 {
+  margin-bottom: 24rem !important;
+}
+
+
+.mb-8,
+.my-8 {
+  margin-bottom: 32rem !important;
+}
+
+.mb-9,
+.my-9 {
+  margin-bottom: 64rem !important;
+}
+
+.mb-10,
+.my-10 {
+  margin-bottom: 128rem !important;
+}
+
+.mb--7px,
+.my--7px {
+  margin-bottom: -7px !important;
+}
+
+.mb--10px,
+.my--10px {
+  margin-bottom: -10px !important;
+}
 
 	/*margin-left補充定義*/
 
@@ -642,5 +704,29 @@ es 1s linear infinite;
 	background-image: url(../img/club_intro.jpg);
 	height: 200px;
 	width:50%;
+	background-size: cover;
+}
+
+/*聖誕慈善嘉年華*/
+#chirstmas_photo{
+	background-image: url(../img/sd.jpg);
+	height: 400px;
+	width:48.53%;
+	background-size: cover;
+}
+
+/*親子慈善園遊會*/
+#market_photo{
+	background-image: url(../img/yy.jpg);
+	height: 400px;
+	width:48.53%;
+	background-size: cover;
+}
+
+/*誰是中原人*/
+#welcome_photo{
+	background-image: url(../img/ss.jpg);
+	height: 400px;
+	width:48.53%;
 	background-size: cover;
 }
