@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth !important;
+}
+
 	/*一般樣式定義區*/
 /*特大圓角 語法: rounded-(xlg,top-xlg,bottom-xlg)*/
 .rounded-xlg{
@@ -175,6 +179,40 @@
 }
 
 	/*margin-left補充定義*/
+.ml--1,
+.mx--1 {
+  margin-left: -0.25rem !important;
+}
+
+.ml--2,
+.mx--2 {
+  margin-left: -0.5rem !important;
+}
+
+.ml--3,
+.mx--3 {
+  margin-left: -1rem !important;
+}
+
+.ml--3p25,
+.mx--3p25 {
+  margin-left: -1.25rem !important;
+}
+
+.ml--3p25min,
+.mx--3p25min {
+  margin-left: -1.3rem !important;
+}
+
+.ml--3p5,
+.mx--3p5 {
+  margin-left: -1.5rem !important;
+}
+
+.ml--4,
+.mx--4 {
+  margin-left: -2rem !important;
+}
 
 .ml-6,
 .mx-6 {
@@ -554,10 +592,22 @@
 	color:white;
 }
 
+/*特製按鈕樣式*/
+.btn-outline-blue{
+  color: #2670DE;
+  background-color: white;
+  border-color: #2670DE;
+}
+
 /*按鈕hover 特製效果*/
-.blue-white-hover:hover{
+.white-blue-hover:hover{
 	color:#2670DE !important;
 	background-color: white !important;
+}
+
+.blue-white-hover:hover{
+	color: white !important;
+	background-color: #2670DE !important;
 }
 
 /*聯絡方式icon 特製效果*/
@@ -640,6 +690,10 @@ es 1s linear infinite;
 	border-left: darkgray 3px solid;
 }
 
+/*陰影補充定義*/
+.shadow-super{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
+}
 
 
 /*學習經歷照片*/
@@ -689,13 +743,17 @@ es 1s linear infinite;
 	height:60px;
 }
 
-/*水平線粗細 語法:hr-px-數字*/
+/*水平線粗細 語法:hr-類型*/
 .hr-timeline{
 	background-color: darkgray;
     height: 5px;
     border-radius: 50px;
     margin-top: -41px;
     margin-left:2px;
+}
+
+.hr-right-splitter{
+	border-right: 2.5px darkgray double;
 }
 
 	/*社團區照片*/
@@ -705,28 +763,101 @@ es 1s linear infinite;
 	height: 200px;
 	width:50%;
 	background-size: cover;
+	min-width: 258.41px !important;
 }
 
 /*聖誕慈善嘉年華*/
 #chirstmas_photo{
 	background-image: url(../img/sd.jpg);
-	height: 400px;
-	width:48.53%;
+	height: 200px;
+	width:300%;
 	background-size: cover;
+	min-width: 258.41px !important;
 }
 
 /*親子慈善園遊會*/
 #market_photo{
 	background-image: url(../img/yy.jpg);
-	height: 400px;
-	width:48.53%;
+	height: 200px;
+	width:300%;
 	background-size: cover;
+	max-width: 258.41px !important;
 }
 
 /*誰是中原人*/
 #welcome_photo{
 	background-image: url(../img/ss.jpg);
-	height: 400px;
-	width:48.53%;
+	height: 200px;
+	width:300%;
 	background-size: cover;
+	min-width: 258.41px !important;
+}
+
+/*弗丁的科學實驗室*/
+#summercamp_photo{
+	background-image: url(../img/fd.jpg);
+	height: 200px;
+	width:300%;
+	background-size: cover;
+	max-width: 258.41px !important;
+}
+
+	/*我的興趣圖片*/
+
+/*寫程式*/
+#coding{
+	background-image: url(../img/coding.jpg);
+	background-size: cover;
+	width:100%;
+	min-height:278.68px;
+}
+
+/*吸收冷知識*/
+#knowledge{
+	background-image: url(../img/knowledge.jpg);
+	background-size: cover;
+	width:100%;
+	min-height:278.68px;
+}
+
+/*出外踏青*/
+#hiking{
+	background-image: url(../img/ps.jpg);
+	background-size: cover;
+	width:100%;
+	min-height:278.68px;
+}
+
+	/*作品集照片*/
+
+/*個人網頁*/
+#Aboutme_photo{
+	background-image: url(../img/self_intro.png);
+	background-size: cover;
+	width:50%;
+	min-height:278.68px;
+}
+
+/*中原大學，我們的第二個家*/
+#midterm_photo{
+	background-image: url(../img/midterm.png);
+	background-size: cover;
+	width:50%;
+	min-height:278.68px;
+}
+
+/*回味無窮的義大利之旅*/
+#trip_photo{
+	background-image: url(../img/trip.png);
+	background-size: cover;
+	width:50%;
+	min-height:278.68px;
+}
+
+/*嗨翻天俱樂部*/
+#junior_photo{
+	background-image: url(../img/junior.png);
+	background-size: cover;
+	width:50%;
+	min-height:278.68px;
 }

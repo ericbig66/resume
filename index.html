@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
 	<link rel="stylesheet" href="css/bootstrap-reboot.css">
 	<link rel="stylesheet" href="css/bootstrap-custom.css">
+	<link rel="stylesheet" href="css/mdb.css">
 </head>
 <body class="lightblue">
 <!--↓↓↓↓↓↓↓請在此插入程式碼↓↓↓↓↓↓-->
@@ -22,7 +23,9 @@
 	      <a class="nav-item nav-link active" href="#About">About me</a>
 	      <a class="nav-item nav-link" href="#Skills">skills</a>
 	      <a class="nav-item nav-link" href="#Education">Education</a>
-	      <a class="nav-item nav-link " href="#">club</a>
+	      <a class="nav-item nav-link " href="#Club">club</a>
+	      <a class="nav-item nav-link " href="#Interest">Interest</a>
+	      <a class="nav-item nav-link " href="#Works">My works</a>
 	    </div>
 	  </div>
 	</nav>
@@ -47,11 +50,11 @@
 			</div>
 			<!--buttons-->
 			<div class="button-group chinese-font d-flex col-percent-100 align-content-xl-around row justify-content-around ml-0">
-				<a href="#learn_exp"><button type="button" class="btn btn-outline-light blue-white-hover rounded-pill ml-1 mr-1 ">學習經歷</button></a>
+				<a href="#Education"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1 ">學習經歷</button></a>
 
-				<a href="#club_exp"><button type="button" class="btn btn-outline-light blue-white-hover rounded-pill ml-1 mr-1">社團經歷</button></a>
+				<a href="#Club"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">社團經歷</button></a>
 
-				<a href="#demo"><button type="button" class="btn btn-outline-light blue-white-hover rounded-pill ml-1 mr-1">作品集</button></a>
+				<a href="#Works"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">作品集</button></a>
 			</div>
 		</div>
 		<!--contact--><!--this is a special part that part of css still not change to bootstrap-->
@@ -173,67 +176,250 @@
 				</div>
 		</div>
 	</div>
-	<div class="club col-percent-80 white mx-auto pt-3 pb-3 px-5 mb-3">
+	<a id="Club"></a>
+	<div class="club col-percent-80 white mx-auto pt-3 pb-3 px-5 ">
 		<div class="title text-title col-percent-100 border-top">Club experiences</div>
 		<div class="subtitle chinese-font mt--10px col-percent-100 border-bottom">社團經歷</div>
 		<div class="I_am_divider row-2 justify-content-start"></div>
-
-		<div class="club_intro d-flex mb-5p5">
+		<!-- because of the layout issue the club intro is removed temporarily -->
+		<!-- <div class="club_intro d-flex mb-5p5">
 			<div class="rounded-xlg mr-3" id="club_intro_photo"></div>
 			<div class="club_intro_text chinese-font pl-3 border-left border-color-darkgray">
-				<span class="text-l">中原愛潮關懷社：</span><br>
+				<span class="text-l font-weight-bold">中原愛潮關懷社：</span><br>
 				我們的助人熱情始終不變<br>
 				桃園地區500多位的清寒國中生<br>
 				因為有了早餐不在飢餓<br>
 				許多個性憂鬱的同學們<br>
 				因為有了陪伴而敞開了心胸
 			</div>
-		</div>
+		</div> -->
+		<div class="christmas_market d-flex col-percent-100">
 
-		<div class="chirstmas d-flex justify-content-end mb-5p5">
-			<div class="chirstmas_text chinese-font pr-3 border-right border-color-darkgray">
-				<span class="text-l">聖誕慈善嘉年華：</span><br>
-				每年當聖誕節來臨的前夕我們都會進行募款<br>
-				為與馬朝關懷協會合作的早餐計畫共同努力<br>
-				活動當天，我擔任的是交通組<br>
-				看見會場內川流不息的人潮<br>
-				即便外面在寒冷我的心始終保持著溫暖<br>
-				藉由合作使我能夠學會與人溝通<br>
-				並輝灑自己對於助人的熱情
-			</div>
-			<div class="rounded-xlg ml-3 " id="chirstmas_photo"></div>
-		</div>
-
-		<div class="market_intro d-flex justify-content-start mb-5p5">
-			<div class="rounded-xlg mr-3" id="market_photo"></div>
-			<div class="market_intro_text chinese-font pl-3 border-left border-color-darkgray">
-				<span class="text-l">親子慈善園遊會：</span><br>
-				這是場兼具慈善與商業活動為一體的園遊會<br>
-				豐富的內容，從食品、日用品到娛樂性質的攤位齊聚一堂<br>
-				活動當天，我是場布組的志工兼小組長<br>
-				我很感謝當天一同協助我們的工作坊學生<br>
-				以及熱心的國中生志工們<br>
-				若沒有你們我們就無法順利進行了
-			</div>
-		</div>
-		<div class="welcome d-flex justify-content-end mb-5p5">
-			<div class="welcome_text chinese-font pr-3 border-right border-color-darkgray">
-				<span class="text-l">誰是中原人：</span><br>
-				這個活動是專為即將加入中原的新鮮人所舉辦<br>
-				藉由一系列的團康活動結合校園巡覽<br>
-				使新生能夠認識彼此及校園周遭的環境<br>
-				在這個活動中，我設計了一個遊戲叫做夜市人生<br>
-				希望藉此能使參加活動的同學能彼此認識<br>
-				並且能與大家有更多的互動<br>
-				想當年我也是這樣來到社團並學會了許多事物<br>
-				我的大學生活也就此豐富了起來
+			<div class="chirstmas d-flex justify-content-start mb-5p5 col-percent-50">
+				<div class="rounded-xlg mr-3 " id="chirstmas_photo"></div>
+				<div class="chirstmas_text chinese-font pl-3 border-left border-color-darkgray text-justify pr-3 hr-right-splitter">
+					<span class="text-l font-weight-bold">聖誕慈善嘉年華</span><br>
+					每年聖誕節前夕我們都會與瑪潮關懷協會聯合舉辦嘉年華一起溫暖桃園，活動當天，我擔任的是交通組，看見會場內川流不息的人潮，即便外面在寒冷我的心始終保持著溫暖，藉由合作使我能夠學會與人溝通，並輝灑自己對於助人的熱情
+				</div>
 				
 			</div>
-			<div class="rounded-xlg ml-3 " id="welcome_photo"></div>
+
+			<div class="market_intro d-flex justify-content-end mb-5p5 col-percent-50">
+				<div class="rounded-xlg mr-3 ml-3" id="market_photo"></div>
+				<div class="market_intro_text chinese-font pl-3 border-left border-color-darkgray text-justify">
+					<span class="text-l font-weight-bold">親子慈善園遊會</span><br>
+					這是場兼具慈善與商業活動為一體的園遊會，各式各樣的愛心攤位與企業齊聚一堂，活動當天，我是場布組的志工兼小組長，我很感謝當天一同協助我們的工作坊學生，以及熱心的國中生志工們，若沒有你們我們就無法順利進行了
+				</div>
+			</div>
+		</div>
+		<div class="welcome_summercamp d-flex col-percent-100">
+			<div class="welcome d-flex justify-content-start mb-5p5 col-percent-50">
+				<div class="rounded-xlg mr-3 " id="welcome_photo"></div>
+				<div class="welcome_text chinese-font pl-3 border-left border-color-darkgray text-justify pr-3 hr-right-splitter">
+					<span class="text-l font-weight-bold">誰是中原人</span><br>
+					為使中原的新鮮人認識彼此及校園環境，將活動結合團康活動及校園巡覽，其中我設計了夜市人生這個遊戲，希望藉此讓大家彼此認識，並與大家有更多的互動，當年我也是這樣來到社團學會了許多事物，我的大學生活也就此豐富了起來	
+				</div>
+			</div>
+
+			<div class="summercamp d-flex justify-content-end mb-5p5 col-percent-50">
+				<div class="rounded-xlg mr-3 ml-3" id="summercamp_photo"></div>
+				<div class="summercamp_text chinese-font pl-3 border-left border-color-darkgray text-justify pl-3">
+					<span class="text-l font-weight-bold">弗丁的科學實驗室</span><br>
+					此活動是為國小3~6年級的小朋友所設計，我們從大約半年前就是先規畫，並將夏令營活動內容融入社團課程中，活動過程中雖然有些好動的小朋友，但小朋友玩得開心又能吸收到知識就是我們最大的成就
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- interest --> 
+	<a id="Interest"></a>
+	<div class="interest col-percent-80 mx-auto px-5 white pb-5">
+		<div class="title text-title col-percent-100 border-top">My interest</div>
+		<div class="subtitle chinese-font mt--7px col-percent-100 border-bottom">我的興趣</div>
+		
+		<div class="card-group chinese-font mt-5 rounded-xlg">
+		  <div class="card rounded-xlg mr-2">
+		    <div class="card-img-top  rounded-top-xlg" id="coding"></div>
+		    <div class="card-body">
+		      <h5 class="card-title">寫程式</h5>
+		      <p class="card-text">程式語言對我而言就像是遊戲一樣，有時進行得很順利，有時會碰到一些難題，但只要問題一解決，我便能享受那困難解決後所帶來的成就感</p>
+		      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		    </div>
+		  </div>
+		  <div class="card rounded-xlg mx-1">
+		    <div class="card-img-top  rounded-top-xlg" id="knowledge"></div>
+		    <div class="card-body">
+		      <h5 class="card-title">吸收冷知識</h5>
+		      <p class="card-text">吸收冷知識或冷笑話也是我的興趣之一，因為讓大家笑是拉近彼此關係的最佳方式，讓認識我的人都能和我一同享受歡樂的力量</p>
+		      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		    </div>
+		  </div>
+		  <div class="card rounded-xlg ml-2">
+		    <div class="card-img-top  rounded-top-xlg" id="hiking"></div>
+		    <div class="card-body">
+		      <h5 class="card-title">出外踏青</h5>
+		      <p class="card-text">和社團的朋友一同出外踏青是個放鬆的時刻，享受著山林間的蟲鳴鳥叫和森林的芬多精，同時大家聊著在生活中發生的趣事，結束後一起吃大餐犒賞自己一天的努力，這樣的感覺真的好希望能天天都有</p>
+		      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		    </div>
+		  </div>
 		</div>
 	</div>
+	<!-- works --><a id="Works"></a>
+	<div class="col-percent-80 mx-auto px-5 white pb-5">
+		<div class="title text-title col-percent-100 border-top">My Works</div>
+		<div class="subtitle chinese-font mt--7px col-percent-100 border-bottom mb-3">我的作品</div>
 
+		<div class="col-percent-100 mx-auto chinese-font mb-5">
+			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
+				<div class="rounded-xlg mr-2 shadow-super" id="Aboutme_photo"></div>
+				<div class="Aboutme_text pl-2">
+					<span class="text-xl font-weight-bold">冠廷の小栈</span><br>
+					上線日期：2019/5/8<br>
+					目前狀態：良好<br>
+					相關技術：<br>
+					html5/css3/js<br><br>
 
+					設計內容：<br>
+					視覺化界面、互動式元件、部分RWD設計&emsp;<br><br>
+					<span class="button"><a href="https://ericbig66.github.io/personalinfo.github.io/"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
+				<div class="rounded-xlg mr-2 shadow-super" id="midterm_photo"></div>
+				<div class="midterm_text pl-2">
+					<span class="text-xl font-weight-bold">中原大學，我們的第二個家</span><br>
+					上線日期：2019/4/11<br>
+					目前狀態：普通<br>
+					相關技術：<br>
+					html5/css3/js<br><br>
+
+					設計內容：<br>
+					視覺化界面、互動式元件、大部分RWD設計<br><br>
+					<span class="button"><a href="https://chen1998.000webhostapp.com/project/pages/index.html"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
+				</div>	
+			</div>
+		</div>
+
+		<div class="col-percent-100 mx-auto chinese-font mb-5">
+			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
+				<div class="rounded-xlg mr-2 shadow-super" id="trip_photo"></div>
+				<div class="trip_text pl-2">
+					<span class="text-xl font-weight-bold">回味無窮的義大利之旅</span><br>
+					上線日期：2018/10/28<br>
+					目前狀態：尚可<br>
+					相關技術：<br>
+					html4/html5/css3/js<br><br>
+
+					設計內容：<br>
+					視覺化界面、互動式元件、些微RWD設計&emsp;<br><br>
+					<span class="button"><a href="https://ericbig66.github.io/personalinfo.github.io/"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
+				<div class="rounded-xlg mr-2 shadow-super" id="junior_photo"></div>
+				<div class="junior_text pl-2">
+					<span class="text-xl font-weight-bold">冠廷的嗨翻天俱樂部</span><br>
+					上線日期：2013/2/11<br>
+					目前狀態：不佳<br>
+					相關技術：<br>
+					html4/css3<br><br>
+
+					設計內容：<br>
+					視覺化界面&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br><br>
+					<span class="button"><a href="http://chen1998.yabi.me/www/index.htm"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small blue pt-4 col-percent-80 mx-auto chinese-font">
+
+	  <!-- Footer Links -->
+	  <div class="container-fluid text-center text-md-left">
+
+	    <!-- Grid row -->
+	    <div class="row">
+
+	      <!-- Grid column -->
+	      <div class="col-md-6 mt-md-0 mt-3">
+
+	        <!-- Content -->
+	        <h5 class="">感謝您的瀏覽</h5>
+	        <p><span>您可以</span><a href="#demo"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">寫信給我</button></a><span>或著利用</span><a href="#About"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">社群媒體</button></a><span>與我聯繫</span></p>
+
+	      </div>
+	      <!-- Grid column -->
+
+	      <hr class="clearfix w-100 d-md-none pb-3">
+
+	      <!-- Grid column -->
+	      <div class="col-md-3 mb-md-0 mb-3">
+
+	        <!-- Links -->
+	        <h5 class="">工作 & 志工經驗</h5>
+
+	        <ol start="1" class="list-styled ml--3p25min">
+	          <li>
+	            特殊家庭支持中心電腦技術人員
+	          </li>
+	          <li>
+	            愛潮社總務
+	          </li>
+	          <li>
+	            宗教哲學課班長
+	          </li>
+	          <li>
+	            瑪潮關懷協會園遊會志工
+	          </li>
+	        </ol>
+
+	      </div>
+	      <!-- Grid column -->
+
+	      <!-- Grid column -->
+	      <div class="col-md-3 mb-md-0 mb-3">
+
+	        <!-- Links -->
+	        <h5>目前精進中的程式語言</h5>
+
+	        <ol start="1" class="list-styled ml--3p25min">
+	          <li>
+	            python
+	          </li>
+	          <li>
+	            css3
+	          </li>
+	          <li>
+	            javascrpit
+	          </li>
+	          <li>
+	            java
+	          </li>
+	        </ol>
+
+	      </div>
+	      <!-- Grid column -->
+
+	    </div>
+	    <!-- Grid row -->
+
+	  </div>
+	  <!-- Footer Links -->
+
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+	    <a href="http://chen1998.yabi.me"> Eric's</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
 <!--↑↑↑↑↑↑↑請在此插入程式碼↑↑↑↑↑↑-->
 	<!--以下區域請勿修改-->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -244,5 +430,9 @@
 	<script src="js/skillbar_round_settings.js"></script>
 	<script src="https://unpkg.com/popper.js"></script>
 	<script src="js/tooltip-control.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[id*="#"]');
+	</script>
 </body>
 </html>
