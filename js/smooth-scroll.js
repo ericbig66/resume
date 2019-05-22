@@ -34,10 +34,10 @@
 		// Speed & Duration
 		speed: 2500,
 		speedAsDuration: true,
-		durationMax: null,
-		durationMin: null,
+		durationMax: 2500,
+		durationMin: 500,
 		clip: true,
-		offset: 0,
+		offset: 105,
 
 		// Easing
 		easing: 'easeOutCubic',
