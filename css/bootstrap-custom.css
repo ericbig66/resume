@@ -618,6 +618,13 @@ html{
 	background-position: center center;
 }
 
+.works img{
+	max-width:100%;
+	height: 50%
+}
+
+
+
 /*大頭照定義*/
 .profile-photo{
 	background-image: url(../img/Eric.jpg);
@@ -747,7 +754,7 @@ es 1s linear infinite;
 
 #up1_photo::before{
 	content:"一起溫暖桃園 \A 2017.12.23";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/up1_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -779,7 +786,7 @@ es 1s linear infinite;
 
 #down1_photo::before{
 	content:"薑就對了 \A 2018.4~2018.5";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/down1_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -966,12 +973,6 @@ es 1s linear infinite;
 	background-size: cover;
 }
 
-#club_intro_photo{
-	background-image: url(../img/club_intro.jpg);
-	
-	min-width: 258.41px !important;
-}
-
 /*聖誕慈善嘉年華*/
 #chirstmas_photo{
 	background-image: url(../img/sd.jpg);
@@ -980,7 +981,7 @@ es 1s linear infinite;
 
 #chirstmas_photo::before{
 	content:"一起溫暖桃園 \A 2018.12.23";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/sd_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1010,7 +1011,7 @@ es 1s linear infinite;
 
 #market_photo::before{
 	content:"親子慈善園遊會 \A 2019.4.21";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/yy_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1039,7 +1040,7 @@ es 1s linear infinite;
 
 #welcome_photo::before{
 	content:"誰是中原人 \A 2018.8.13~15";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/ss_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1068,7 +1069,7 @@ es 1s linear infinite;
 
 #summercamp_photo::before{
 	content:"弗丁科學實驗室 \A 2019.1.22~24";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/fd_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1104,7 +1105,7 @@ es 1s linear infinite;
 
 #coding::before{
 	content:"- SoloLearn -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/coding_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1133,7 +1134,7 @@ es 1s linear infinite;
 
 #knowledge::before{
 	content:"- YouTube -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/knowledge_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1162,7 +1163,7 @@ es 1s linear infinite;
 
 #hiking::before{
 	content:"- 皇帝殿 -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/ps_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1216,7 +1217,7 @@ es 1s linear infinite;
 
 #Aboutme_photo::before{
 	content:"- 冠廷の小栈 -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/self_intro_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1244,7 +1245,7 @@ es 1s linear infinite;
 
 #midterm_photo::before{
 	content:"- 中原大學，我們的第二個家 -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/midterm_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1273,7 +1274,7 @@ es 1s linear infinite;
 
 #trip_photo::before{
 	content:"- 回味無窮的義大利之旅 -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/trip_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1300,9 +1301,9 @@ es 1s linear infinite;
 	background-image: url(../img/junior.png);
 }
 
-#junior_photo::before{
+#junior_photo::after{
 	content:"- 冠廷的嗨翻天俱樂部 -";
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/junior_dark.png);
 	background-size: cover;
 	display: flex;
 	color:white;
@@ -1319,7 +1320,7 @@ es 1s linear infinite;
 	opacity:0;
 }
 
-#junior_photo:hover::before{
+#junior_photo:hover::after{
 	opacity: 1;
 }
 
