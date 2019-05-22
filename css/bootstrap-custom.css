@@ -586,6 +586,33 @@ html{
 	transition: linear 2s;
 }
 
+/*虛擬LED狀態燈*/
+.led-bad{
+	color:red;
+	text-shadow: -1px 1px 2px darkred;
+}
+
+.led-stillok{
+	color:orange;
+	text-shadow: -1px 1px 2px #774d00;
+}
+
+.led-normal{
+	color:yellow;
+	text-shadow: -1px 1px 2px #757500;
+}
+
+.led-good{
+	color:lightgreen;
+	text-shadow: -1px 1px 2px darkgreen;
+}
+
+/*底線-虛線*/
+.underline-dotted{
+	border-bottom: darkgray dashed 1px ;
+	height: 22px
+}
+
 /*背景圖片置中*/
 .bg-center{
 	background-position: center center;
@@ -799,6 +826,32 @@ es 1s linear infinite;
 }
 #school4{
 	background-image: url(../img/school4.png);
+}
+
+/*作品集狀態tooltip*/
+.right-tooltip{
+	background-color: black;
+	color:white;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 10px;
+	margin-left: 6px;
+	opacity:0;
+	transition: ease 0.5s;
+}
+
+.right-tooltip::before{
+	content: "";
+    position: absolute;
+	border-width: 5px;
+    border-style: solid;
+    margin-top: 3px;
+    margin-left: -15px;
+    border-color: transparent black transparent transparent;
+}
+
+.status:hover .right-tooltip{
+	opacity: 1;
 }
 
 /*時間的痕跡tooltip*/
