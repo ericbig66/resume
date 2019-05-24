@@ -2,459 +2,356 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="refresh" content="1000">
-	<title>Eric's resume</title>
+	<meta http-equiv="refresh" content="500">
+	<title>sotre</title>
+	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
 	<link rel="stylesheet" href="css/bootstrap-reboot.css">
 	<link rel="stylesheet" href="css/bootstrap-custom.css">
-	<link rel="stylesheet" href="css/mdb.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
-<body class="lightgray">
-<!--↓↓↓↓↓↓↓請在此插入程式碼↓↓↓↓↓↓-->
+<body>
 	<!--navbar-->
-	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand pl-6p4" href="#"><img src="img/logo.png" class="logo"></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controdls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo.png" class="logo float-left mr-0"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active" href="#About">About me</a>
-	      <a class="nav-item nav-link" href="#Skills">skills</a>
-	      <a class="nav-item nav-link" href="#Education">Education</a>
-	      <a class="nav-item nav-link " href="#Club">club</a>
-	      <a class="nav-item nav-link " href="#Interest">Interest</a>
-	      <a class="nav-item nav-link " href="#Works">My works</a>
-	    </div>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	    <!-- 首頁按鈕 -->
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+		<!-- 油漆選單 -->
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          paint
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">防水漆</a>
+	          <a class="dropdown-item" href="#">白板漆</a>
+	          <a class="dropdown-item" href="#">速乾淨味漆</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">油漆簡介</a>
+	        </div>
+	      </li>
+		<!-- 壁紙選單 -->
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          wallpaper
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">亮面壁紙</a>
+	          <a class="dropdown-item" href="#">霧面壁紙</a>
+	          <a class="dropdown-item" href="#">印花壁紙</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">壁紙簡介</a>
+	        </div>
+	      </li>
+	      <!-- 油漆刷選單 -->
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Brush
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">滾輪工具</a>
+	          <a class="dropdown-item" href="#">油漆刮刀</a>
+	          <a class="dropdown-item" href="#">各式漆刷</a>
+	        </div>
+	      </li>
+	    </ul>
+		
+		<ul class="navbar-nav ml-auto">
+			<li class="mx-1 tooltip-hover"><a href="#"><img class="nav-icon" src="img/user.png"></a><div class="tooltip">會員中心</div></li>
+			<li class="mx-1 tooltip-hover"><a href="#"><img class="nav-icon" src="img/cart.png"></a><div class="tooltip">購物推車</div></li>
+			<li class="mx-1 tooltip-hover"><a href="#"><img class="nav-icon" src="img/wish_list.png"></a><div class="tooltip">願望清單</div></li>
+			<li class="mx-1 tooltip-hover"><a href="#"><img class="nav-icon" src="img/question.png"></a><div class="tooltip">如何購買</div></li>
+		</ul>
+
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
 	  </div>
 	</nav>
-	
-	<!--intro--><div class="height-0"><a class="anchor-position-alter" id="About">&nbsp;</a></div>
-	<div class="intro col-percent-80 darkblue mx-auto mt-5 row-5p25">
-		<!--card-->
-		<div class="profile col-3 row-5 position-absolute border-solid border-color-white border-5 rounded-xlg mt-5 ml-6">
-			<div class="profile-photo rounded-circle position-relative img-fluid mx-auto mt-4p5 mb-1 border-3 border-color-green"></div>
-			<div class="name chinese-font  mx-auto text-center ">陳冠廷<br>Eric Chen</div>
-		</div>
-		<!--intro text-->
-		<div class="introtext align-middle position-absolute col-3 mt-5p25 text-white text-justify chinese-font ml-8pls text-s lh-2p1">
-				我是陳冠廷，目前就讀於中原大學資訊管理學系，我是個充滿理想抱負的人，從小就夢想著能當一名程式設計師，現在我正在一步步朝著夢想邁進，所有的夢想也將步步成為現實，我希望能透過我寫程式的熱情來綻放我火熱的生命
-			<!--quote-->
-				<p></p>
-			<div class="quote">
-				<blockquote class="blockquote text-right">
-				  <p class="mb-0 text-white">Stay hungry stay foolish.</p>
-				  <footer class="blockquote-footer text-light">Steve Jobs</footer>
-				</blockquote>
-			</div>
-			<!--buttons-->
-			<div class="button-group chinese-font d-flex col-percent-100 align-content-xl-around row justify-content-around ml-0">
-				<a href="#Education"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1 ">學習經歷</button></a>
 
-				<a href="#Club"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">社團經歷</button></a>
 
-				<a href="#Works"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">作品集</button></a>
-			</div>
-		</div>
-		<!--contact--><!--this is a special part that part of css still not change to bootstrap-->
-		<div class="contact col-3 position-absolute ml-9p15 mt-5p25">
-			<!-- phone -->
-			<div class="phone d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="phone"></div>
-				<div class="align-middle lh-30px ml-2 text-white">0914738529</div>
-			</div>
-			<!-- address -->
-			<div class="address d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="address"></div>
-				<div class="align-middle lh-30px ml-2 text-white chinese-font">桃園市中壢區大仁五街</div>
-			</div>
-			<!-- mail -->
-			<div class="mail d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="mail"></div>
-				<div class="align-middle lh-30px ml-2 text-white">ericbig66@cycu.org.tw</div>
-			</div>
-			<!-- facebook -->
-			<div class="fb d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="fb"></div>
-				<div class="align-middle lh-30px ml-2 text-white">Chen Eric</div>
-			</div>
-			<!-- line -->
-			<div class="line d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="line"></div>
-				<div class="align-middle lh-30px ml-2 text-white">@322krlje</div>
-			</div>
-			<!-- github -->
-			<div class="github d-flex mb-4">
-				<div class="icon rounded-circle bg-center ease-0p5" id="github"></div>
-				<div class="align-middle lh-30px ml-2 text-white">ericbig66</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- main section -->
-	<div class="main-section white col-percent-80 mx-auto d-flex pt-3 pb-3 px-5">
-		<div class="left col-percent-45 border-right">
-			<!-- pro skills --><div class="height-0"><a class="anchor-position-alter" id="Skills">&nbsp;</a></div>
-			<div class="skills">
-				<div class="title text-title">Professional Skills</div>
-				<div class="subtitle chinese-font mt--10px mb-5">專業技能</div>
-				<div class="skill12 d-flex mb-5 mx-auto">
-					<div>
-						<div class="skill ml-5" id="skill-1"><span class="d-none" id="percent-1">90</span></div>
-						<div class="ml-5 mt-2 text-center chinese-font">前端技術</div>
-					</div>
-					
-					<div>
-						<div class="skill ml-6" id="skill-2"><span class="d-none" id="percent-2">70</span></div>
-						<div class="ml-6 mt-2 text-center chinese-font ">後端技術</div>
-					</div>
-				</div>
-				<div class="skill34 d-flex mx-auto mb-5">
-					<div>
-						<div class="skill ml-5" id="skill-3"><span class="d-none" id="percent-3">95</span></div>
-						<div class="ml-5 mt-2 text-center chinese-font">攝影</div>
-					</div>
-					<div>
-						<div class="skill ml-6" id="skill-4"><span class="d-none" id="percent-4">85</span></div>
-						<div class="ml-6 mt-2 text-center chinese-font ">photoshop</div>
-					</div>
-					
-				</div>
-			</div>
-			
-			<!-- programimg sikll -->
-			<div class="programing mb-5">
-				<div class="title text-title">Programing Skills</div>
-				<div class="subtitle chinese-font mt--7px mb-3">程式技能</div>
-				<div class="skb d-flex mb-3">
-					<div class="col-percent-20 text-right mr-2">Visual Basic</div>
-					<div class="progress" id="SkillFrame"><div class="progress-bar progress-bar-striped progress-bar-animated" id="SkillBar-1"><span class="d-none" id="getskill-1">10</span>0%</div></div>
-				</div>
-				<div class="skb d-flex mb-3">
-					<div class="col-percent-20 text-right mr-2">c#</div>
-					<div class="progress" id="SkillFrame"><div class="progress-bar progress-bar-striped progress-bar-animated" id="SkillBar-2"><span class="d-none" id="getskill-1">20</span>0%</div></div>
-				</div>
-				<div class="skb d-flex mb-3">
-					<div class="col-percent-20 text-right mr-2">java</div>
-					<div class="progress" id="SkillFrame"><div class="progress-bar progress-bar-striped progress-bar-animated" id="SkillBar-3"><span class="d-none" id="getskill-1">90</span>0%</div></div>
-				</div>
-				<div class="skb d-flex mb-3">
-					<div class="col-percent-20 text-right mr-2">javascrpit</div>
-					<div class="progress" id="SkillFrame"><div class="progress-bar progress-bar-striped progress-bar-animated" id="SkillBar-4"><span class="d-none" id="getskill-1">40</span>0%</div></div>
-				</div>
-			</div>
-			<div class="schools">
-				<div class="title text-title">Trace of Time</div>
-				<div class="subtitle chinese-font mt--10px mb-5">時間的痕跡</div>
-				<div class="timeline d-flex col-percent-85 align-content-xl-around">
-					<!-- data-toggle="tooltip" data-placement="top" title="中原國小" -->
-					<!-- data-toggle="tooltip" data-placement="bottom" title="東興國中" -->
-					<!-- data-toggle="tooltip" data-placement="top" title="中壢高商" -->
-					<!-- data-toggle="tooltip" data-placement="bottom" title="中原大學" -->
-					<div class="chinese-font " id="school1" ><span class="auto-top-tooltip" id="ele">中原國小</span></div>
-					<div class="chinese-font" id="school2" ><span class="auto-bottom-tooltip" id="jun">東興國中</span></div>
-					<div class="chinese-font" id="school3" ><span class="auto-top-tooltip" id="hig">中壢高商</span></div>
-					<div class="chinese-font" id="school4" ><span class="auto-bottom-tooltip" id="col">中原大學</span></div>
-					
-				</div>
-				<hr size="8px" class="col-percent-85 hr-timeline"/>
-			</div>
-		</div>
-		<div class="height-0"><a class="anchor-position-alter" id="Education">&nbsp;</a></div>
-		<div class="right col-percent-55 pl-5">
-			<div class="title text-title">Education</div>
-			<div class="subtitle chinese-font mt--10px mb-3">學習歷程</div>
-			<!-- 大一上 -->
-				<div class="col-percent-60 chinese-font mb-2">大一上&nbsp;|&nbsp;管理學報告-一起溫暖桃園</div>
-				<div class="img-fluid rounded-top-xlg " id="up1_photo"></div>
-				<div class="up1_detail chinese-font pl-3 pr-3 pt-3 pb-3 lightblue-3 rounded-bottom-xlg mb-5">
-					透過與業界的關懷專案結合，使得我們學習到與外界溝通的技巧並促使我們能更進一步的了解信心的重要，和與顧客的互動模式
-				</div>
-			<!-- 大一下 -->
-				<div class="col-percent-60 chinese-font mb-2">大一下&nbsp;|&nbsp;企業概論報告-薑就對了</div>
-				<div class="img-fluid rounded-top-xlg " id="down1_photo"></div>
-				<div class="up1_detail chinese-font pl-3 pr-3 pt-3 pb-3 lightblue-3 rounded-bottom-xlg">
-					透過與民間愛心企業合作，學習產品的包裝、行銷和宣傳，以及民眾對價格的感受，學習如何加入一個具有競爭力的市場
-				</div>
-		</div>
-	</div>
-	<div class="height-0"><a class="anchor-position-alter" id="Club">&nbsp;</a></div>
-	<div class="club col-percent-80 white mx-auto pt-3 pb-3 px-5 ">
-		<div class="title text-title col-percent-100 border-top">Club experiences</div>
-		<div class="subtitle chinese-font mt--10px col-percent-100 border-bottom">社團經歷</div>
-		<div class="I_am_divider row-2 justify-content-start"></div>
-		<!-- because of the layout issue the club intro is removed temporarily -->
-		<!-- <div class="club_intro d-flex mb-5p5">
-			<div class="rounded-xlg mr-3" id="club_intro_photo"></div>
-			<div class="club_intro_text chinese-font pl-3 border-left border-color-darkgray">
-				<span class="text-l font-weight-bold">中原愛潮關懷社：</span><br>
-				我們的助人熱情始終不變<br>
-				桃園地區500多位的清寒國中生<br>
-				因為有了早餐不在飢餓<br>
-				許多個性憂鬱的同學們<br>
-				因為有了陪伴而敞開了心胸
-			</div>
-		</div> -->
-		<div class="christmas_market d-flex col-percent-100">
-
-			<div class="chirstmas d-flex justify-content-start mb-5p5 col-percent-50">
-				<div class="rounded-xlg mr-3 club" id="chirstmas_photo"></div>
-				<div class="chirstmas_text chinese-font pl-3 border-left border-color-darkgray text-justify pr-3 hr-right-splitter">
-					<span class="text-l font-weight-bold">聖誕慈善嘉年華</span><br>
-					每年聖誕節前夕我們都會與瑪潮關懷協會聯合舉辦嘉年華一起溫暖桃園，活動當天，我擔任的是交通組，看見會場內川流不息的人潮，即便外面在寒冷我的心始終保持著溫暖，藉由合作使我能夠學會與人溝通，並輝灑自己對於助人的熱情
-				</div>
-				
-			</div>
-
-			<div class="market_intro d-flex justify-content-end mb-5p5 col-percent-50">
-				<div class="rounded-xlg mr-3 ml-3 club" id="market_photo"></div>
-				<div class="market_intro_text chinese-font pl-3 border-left border-color-darkgray text-justify">
-					<span class="text-l font-weight-bold">親子慈善園遊會</span><br>
-					這是場兼具慈善與商業活動為一體的園遊會，各式各樣的愛心攤位與企業齊聚一堂，活動當天，我是場布組的志工兼小組長，我很感謝當天一同協助我們的工作坊學生，以及熱心的國中生志工們，若沒有你們我們就無法順利進行了
-				</div>
-			</div>
-		</div>
-		<div class="welcome_summercamp d-flex col-percent-100">
-			<div class="welcome d-flex justify-content-start mb-5p5 col-percent-50">
-				<div class="rounded-xlg mr-3 club" id="welcome_photo"></div>
-				<div class="welcome_text chinese-font pl-3 border-left border-color-darkgray text-justify pr-3 hr-right-splitter">
-					<span class="text-l font-weight-bold">誰是中原人</span><br>
-					為使中原的新鮮人認識彼此及校園環境，將活動結合團康活動及校園巡覽，其中我設計了夜市人生這個遊戲，希望藉此讓大家彼此認識，並與大家有更多的互動，當年我也是這樣來到社團學會了許多事物，我的大學生活也就此豐富了起來	
-				</div>
-			</div>
-
-			<div class="summercamp d-flex justify-content-end mb-5p5 col-percent-50">
-				<div class="rounded-xlg mr-3 ml-3 club" id="summercamp_photo"></div>
-				<div class="summercamp_text chinese-font pl-3 border-left border-color-darkgray text-justify pl-3">
-					<span class="text-l font-weight-bold">弗丁的科學實驗室</span><br>
-					此活動是為國小3~6年級的小朋友所設計，我們從大約半年前就事先規畫，並將夏令營活動內容融入社團課程中，活動過程中雖然有些好動的小朋友，但小朋友玩得開心又能吸收到知識就是我們最大的成就
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	<!-- interest --> 
-	<div class="height-0"><a class="anchor-position-alter" id="Interest">&nbsp;</a></div>
-	<div class="interest col-percent-80 mx-auto px-5 white pb-5">
-		<div class="title text-title col-percent-100 border-top">My interest</div>
-		<div class="subtitle chinese-font mt--7px col-percent-100 border-bottom">我的興趣</div>
-		
-		<div class="card-group chinese-font mt-5 rounded-xlg">
-		  <div class="card rounded-xlg mr-2">
-		    <div class="card-img-top  rounded-top-xlg" id="coding"></div>
-		    <div class="card-body">
-		      <h5 class="card-title">寫程式</h5>
-		      <p class="card-text">程式語言對我而言就像是遊戲一樣，有時進行得很順利，有時會碰到一些難題，但只要問題一解決，我便能享受那困難解決後所帶來的成就感</p>
-		    </div>
-		  </div>
-		  <div class="card rounded-xlg mx-1">
-		    <div class="card-img-top  rounded-top-xlg" id="knowledge"></div>
-		    <div class="card-body">
-		      <h5 class="card-title">吸收冷知識</h5>
-		      <p class="card-text">吸收冷知識或冷笑話也是我的興趣之一，因為讓大家笑是拉近彼此關係的最佳方式，讓認識我的人都能和我一同享受歡樂的力量</p>
-		    </div>
-		  </div>
-		  <div class="card rounded-xlg ml-2">
-		    <div class="card-img-top  rounded-top-xlg" id="hiking"></div>
-		    <div class="card-body">
-		      <h5 class="card-title">出外踏青</h5>
-		      <p class="card-text">
-		      和社團的朋友一同出外踏青是個放鬆的時刻，享受著山林間的蟲鳴鳥叫和森林的芬多精，同時大家聊著在生活中發生的趣事，結束後一起吃大餐犒賞自己一天的努力，這樣的感覺真的好希望能天天都有</p>
-		    </div>
-		  </div>
-		  <div class="after-height-factor"></div>
-		 	  
-		</div>
-	</div>
-	<!-- works --><div class="height-0"><a class="anchor-position-alter" id="Works">&nbsp;</a></div>
-	<div class="col-percent-80 mx-auto px-5 white pb-5">
-		<div class="title text-title col-percent-100 border-top">My Works</div>
-		<div class="subtitle chinese-font mt--7px col-percent-100 border-bottom mb-3">我的作品</div>
-
-		<div class="col-percent-100 mx-auto chinese-font mb-5">
-			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
-				<div class="rounded-xlg mr-2 shadow-super works" id="Aboutme_photo"></div>
-				<div class="Aboutme_text pl-2">
-					<span class="text-xl font-weight-bold">冠廷の小栈</span><br>
-					上線日期：2019/5/8<br>
-					<div class="d-flex status">
-						目前狀態：<div class="led-good">●</div>
-						<div class="underline-dotted">良好</div>
-						<div class="right-tooltip">幾乎沒有問題</div>
-					</div>
-					相關技術：<br>
-					html5/css3/js<br><br>
-
-					設計內容：<br>
-					視覺化界面、互動式元件、部分RWD設計&emsp;<br><br>
-					<span class="button"><a href="https://ericbig66.github.io/personalinfo.github.io/"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
-				</div>
-				
-			</div>
-			
-			
-			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
-				<div class="rounded-xlg mr-2 shadow-super works" id="midterm_photo"></div>
-				<div class="midterm_text pl-2">
-					<span class="text-xl font-weight-bold">中原大學，我們的第二個家</span><br>
-					上線日期：2019/4/11<br>
-					<div class="d-flex status">
-						目前狀態：<div class="led-normal">●</div>
-						<div class="underline-dotted">普通</div>
-						<div class="right-tooltip">穩定，但載入速度稍慢</div>
-					</div>
-					相關技術：<br>
-					html5/css3/js<br><br>
-
-					設計內容：<br>
-					視覺化界面、互動式元件、大部分RWD設計<br><br>
-					<span class="button"><a href="https://chen1998.000webhostapp.com/project/pages/index.html"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
-				</div>	
-			</div>
-		</div>
-
-		<div class="col-percent-100 mx-auto chinese-font mb-5">
-			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
-				<div class="rounded-xlg mr-2 shadow-super works" id="trip_photo"></div>
-				<div class="trip_text pl-2">
-					<span class="text-xl font-weight-bold">回味無窮的義大利之旅</span><br>
-					上線日期：2018/10/28<br>
-					<div class="d-flex status">
-						目前狀態：<div class="led-stillok">●</div>
-						<div class="underline-dotted">尚可</div>
-						<div class="right-tooltip">javascrpit不穩定，容易出現幻燈片錯亂</div>
-					</div>
-					相關技術：<br>
-					html4/html5/css3/js<br><br>
-
-					設計內容：<br>
-					視覺化界面、互動式元件、些微RWD設計&emsp;<br><br>
-					<span class="button"><a href="https://ericbig66.github.io/personalinfo.github.io/"><button type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></a></span>
-				</div>
-				
-			</div>
-			
-			
-			<div class="col-percent-100 mr-2 d-flex justify-content-around mb-5">
-				<div class="rounded-xlg mr-2 shadow-super works" id="junior_photo"></div>
-				<div class="junior_text pl-2">
-					<span class="text-xl font-weight-bold">冠廷的嗨翻天俱樂部</span><br>
-					上線日期：2013/2/11<br>
-					<div class="d-flex status">
-						目前狀態：<div class="led-bad">●</div>
-						<div class="underline-dotted">不佳</div>
-						<div class="right-tooltip">可供檢視，但不穩定(語法支援性差)</div>
-					</div>
-					相關技術：<br>
-					html4/css3<br><br>
-
-					設計內容：<br>
-					視覺化界面&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br><br>
-					<span class="button"><button onclick="warning()" type="button" class="btn btn-outline-blue blue-white-hover rounded-pill ml-1 mr-1">點我進入</button></span>
-				</div>	
-			</div>
-		</div>
-	</div>
-	<!-- Footer -->
-	<footer class="page-footer font-small blue pt-4 col-percent-80 mx-auto chinese-font">
-
-	  <!-- Footer Links -->
-	  <div class="container-fluid text-center text-md-left">
-
-	    <!-- Grid row -->
-	    <div class="row">
-
-	      <!-- Grid column -->
-	      <div class="col-md-6 mt-md-0 mt-3">
-
-	        <!-- Content -->
-	        <h5 class="">感謝您的瀏覽</h5>
-	        <p><span>您可以</span><a href="mailto:ericbig66@cycu.org.tw ?subject=網頁意見反映"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">寫信給我</button></a><span>或著利用</span><a href="#About"><button type="button" class="btn btn-outline-light white-blue-hover rounded-pill ml-1 mr-1">社群媒體</button></a><span>與我聯繫</span></p>
-
+	<!--slideshow-->
+	<div class="bd-example mb-5">
+	  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	    <ol class="carousel-indicators">
+	      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+	      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+	      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+	    </ol>
+	    <div class="carousel-inner">
+	      <div class="carousel-item active" data-interval="2000">
+	        <img src="http://fakeimg.pl/1000x250/" class="d-block w-100" alt="...">
+	        <div class="carousel-caption d-none d-md-block">
+	          <h5>First slide label</h5>
+	          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	        </div>
 	      </div>
-	      <!-- Grid column -->
+	      <div class="carousel-item" data-interval="2000">
 
-	      <hr class="clearfix w-100 d-md-none pb-3">
-
-	      <!-- Grid column -->
-	      <div class="col-md-3 mb-md-0 mb-3">
-
-	        <!-- Links -->
-	        <h5 class="">工作 & 志工經驗</h5>
-
-	        <ol start="1" class="list-styled ml--3p25min">
-	          <li>
-	            特殊家庭支持中心電腦技術人員
-	          </li>
-	          <li>
-	            愛潮社總務
-	          </li>
-	          <li>
-	            宗教哲學課班長
-	          </li>
-	          <li>
-	            瑪潮關懷協會園遊會志工
-	          </li>
-	        </ol>
-
+	        <img src="http://fakeimg.pl/1000x250/" class="d-block w-100" alt="...">
+	        <div class="carousel-caption d-none d-md-block">
+	          <h5>Second slide label</h5>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	        </div>
 	      </div>
-	      <!-- Grid column -->
-
-	      <!-- Grid column -->
-	      <div class="col-md-3 mb-md-0 mb-3">
-
-	        <!-- Links -->
-	        <h5>目前精進中的程式語言</h5>
-
-	        <ol start="1" class="list-styled ml--3p25min">
-	          <li>
-	            python
-	          </li>
-	          <li>
-	            css3
-	          </li>
-	          <li>
-	            javascrpit
-	          </li>
-	          <li>
-	            java
-	          </li>
-	        </ol>
-
+	      <div class="carousel-item" data-interval="2000">
+	        <img src="http://fakeimg.pl/1000x250/" class="d-block w-100" alt="...">
+	        <div class="carousel-caption d-none d-md-block">
+	          <h5>Third slide label</h5>
+	          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	        </div>
 	      </div>
-	      <!-- Grid column -->
-
 	    </div>
-	    <!-- Grid row -->
-
+	    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+	      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+	      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
 	  </div>
-	  <!-- Footer Links -->
-
-	  <!-- Copyright -->
-	  <div class="footer-copyright text-center py-3 mb-5">© 2019 Copyright:
-	    <a href="http://chen1998.yabi.me"> <img class="cpr" src="img/logo_white.png"></a>
+	</div>
+	<!--item cards 站長推薦商品-->
+	<div class="recommand-title mx-auto col-2 h2 bothline text-center chinese-font">站長推薦</div>
+	<div class="card-deck col-9 mx-auto mb-5 mt-3">
+	  <!-- 商品1 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
 	  </div>
-	  <!-- Copyright -->
+	  <!-- 商品2 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">商品名稱</h5>
+	      <p class="card-text">請在此描述產品特性(此須介紹簡單明瞭即可，無須過於攏長，有興趣的消費者會自行點進個別商品頁面觀看)</p>
+	      <p class="card-text"><small class="text-muted">目前已賣出n件</small></p>
+	    </div>
+	  </div>
+	  <!-- 商品3 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	</div>
 
-	</footer>
-	<!-- Footer -->
-<!--↑↑↑↑↑↑↑請在此插入程式碼↑↑↑↑↑↑-->
-	<!--以下區域請勿修改-->
+	<!--item cards 熱門商品-->
+	<div class="recommand-title mx-auto col-2 h2 bothline text-center chinese-font">熱門商品</div>
+	<div class="card-deck col-9 mx-auto mb-5 mt-3">
+	  <!-- 商品1 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	  <!-- 商品2 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">商品名稱</h5>
+	      <p class="card-text">請在此描述產品特性(此須介紹簡單明瞭即可，無須過於攏長，有興趣的消費者會自行點進個別商品頁面觀看)</p>
+	      <p class="card-text"><small class="text-muted">目前已賣出n件</small></p>
+	    </div>
+	  </div>
+	  <!-- 商品3 -->
+	  <div class="card ml-2 mr-2 rounded-xlg">
+	    <img src="http://fakeimg.pl/301x250/" class="card-img-top rounded-xlg" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 壁紙文案 -->
+	<div class="wallpaper ">
+		<div class="wallpaper_photo col-12 bg-center bg-cover d-flex justify-content-start align-items-center pl-5 mb-5">
+			<div class="wallpaper_intro col-3">
+				<div class="title">標題</div>
+				<div class="innercontent">內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</div>	
+			</div>	
+		</div>
+	</div>
+
+	<!-- 油漆文案 -->
+	<div class="wallpaper ">
+		<div class="wallpaper_photo col-12 bg-center bg-cover d-flex justify-content-end align-items-center pr-5">
+			<div class="wallpaper_intro col-3">
+				<div class="title">標題</div>
+				<div class="innercontent">內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</div>	
+			</div>	
+		</div>
+	</div>
+
+<!-- ------------------------------------------------------- -->
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark mt-5">
+
+  <div style="background-color: #6351ce;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">MDBootstrap</a>
+        </p>
+        <p>
+          <a href="#!">MDWordPress</a>
+        </p>
+        <p>
+          <a href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!">Bootstrap Angular</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://ericbig66.github.io/resume/"> Eric's</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- --------------------------------------------------------- -->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script src="js/skillbar.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.bundle.js"></script>
-	<script src="js/skillbar_round.js"></script>
-	<script src="js/skillbar_round_settings.js"></script>
-	<script src="https://unpkg.com/popper.js"></script>
-	<script src="js/tooltip-control.js"></script>
-	<script src="js/warning.js"></script>
-	<script src="js/smooth-scroll.js"></script>
-	<script>
-		var scroll = new SmoothScroll('a[id*="#"]',{
-		header: 'nav[navbar]'
-	});
-	</script>
 </body>
 </html>
