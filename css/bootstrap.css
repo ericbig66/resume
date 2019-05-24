@@ -5296,10 +5296,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .progress-bar-animated {
-  -webkit-animation: progress-bar-strip
-es 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
     -webkit-animation: none;
@@ -7598,7 +7598,7 @@ button.bg-dark:focus {
     -ms-flex-negative: 1 !important;
     flex-shrink: 1 !important;
   }
-  .justify-content-xl-start {
+  .F-start {
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
