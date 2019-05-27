@@ -1,83 +1,1339 @@
-/*特大圓角(全部)*/
+html{
+	scroll-behavior: smooth !important;
+}
+
+	/*一般樣式定義區*/
+/*特大圓角 語法: rounded-(xlg,top-xlg,bottom-xlg)*/
 .rounded-xlg{
 	border-radius: 1rem !important;
 }
 
-/*網頁logo大小調整*/
-.logo{
-	height:35px;
+.rounded-top-xlg{
+	border-top-left-radius: 1rem !important;
+	border-top-right-radius: 1rem !important;
 }
 
-/*文字樣式*/
-.underline{
-    text-decoration: underline:;
+.rounded-bottom-xlg{
+	border-bottom-left-radius: 1rem !important;
+	border-bottom-right-radius: 1rem !important;
 }
 
-.overline{
-    text-decoration: overline;
+	/*高度樣式定義*/
+	/*語法: row-數字(1~5)*/
+.row-1{
+	height: 1rem;
 }
 
-.bothline{
-    border-top:1px solid;
-    border-bottom: 1px solid;
-    line-height: 2;
+.row-2{
+	height: 3rem;
+}
+
+.row-3{
+	height: 6rem;
+}
+
+.row-4{
+	height: 12rem;
+}
+
+.row-4p5{
+	height: 18rem;
+}
+
+.row-5{
+	height: 24rem;
+}
+
+.row-5p25{
+	height: 30rem;
+}
+
+.row-5p5{
+	height: 36rem;
+}
+	/*margin-top補充定義區*/
+.mt-4p5,
+.mt-4p5 {
+	margin-top: 2.25rem;
+}
+
+.mt-5p25,
+.my-5p25 {
+  margin-top: 5rem !important;
+}
+
+.mt-5p5,
+.my-5p5 {
+  margin-top: 6rem !important;
+}
+
+
+.mt-6,
+.my-6 {
+  margin-top: 8rem !important;
+}
+
+.mt-6p5,
+.my-6p5 {
+  margin-top: 12rem !important;
+}
+
+.mt-7,
+.my-7 {
+  margin-top: 16rem !important;
+}
+
+.mt-7p5,
+.my-7p5 {
+  margin-top: 24rem !important;
+}
+
+
+.mt-8,
+.my-8 {
+  margin-top: 32rem !important;
+}
+
+.mt-9,
+.my-9 {
+  margin-top: 64rem !important;
+}
+
+.mt-10,
+.my-10 {
+  margin-top: 128rem !important;
+}
+
+.mt--7px,
+.my--7px {
+  margin-top: -7px !important;
+}
+
+.mt--10px,
+.my--10px {
+  margin-top: -10px !important;
+}
+
+/*margin-bottom補充定義*/
+
+.mb-4p5,
+.my-4p5 {
+	margin-bottom: 2.25rem;
+}
+
+.mb-5p25,
+.my-5p25 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-5p5,
+.my-5p5 {
+  margin-bottom: 6rem !important;
+}
+
+
+.mb-6,
+.my-6 {
+  margin-bottom: 8rem !important;
+}
+
+.mb-6p5,
+.my-6p5 {
+  margin-bottom: 12rem !important;
+}
+
+.mb-7,
+.my-7 {
+  margin-bottom: 16rem !important;
+}
+
+.mb-7p5,
+.my-7p5 {
+  margin-bottom: 24rem !important;
+}
+
+
+.mb-8,
+.my-8 {
+  margin-bottom: 32rem !important;
+}
+
+.mb-9,
+.my-9 {
+  margin-bottom: 64rem !important;
+}
+
+.mb-10,
+.my-10 {
+  margin-bottom: 128rem !important;
+}
+
+.mb--7px,
+.my--7px {
+  margin-bottom: -7px !important;
+}
+
+.mb--10px,
+.my--10px {
+  margin-bottom: -10px !important;
+}
+
+	/*margin-left補充定義*/
+.ml--1,
+.mx--1 {
+  margin-left: -0.25rem !important;
+}
+
+.ml--2,
+.mx--2 {
+  margin-left: -0.5rem !important;
+}
+
+.ml--3,
+.mx--3 {
+  margin-left: -1rem !important;
+}
+
+.ml--3p25,
+.mx--3p25 {
+  margin-left: -1.25rem !important;
+}
+
+.ml--3p25min,
+.mx--3p25min {
+  margin-left: -1.3rem !important;
+}
+
+.ml--3p5,
+.mx--3p5 {
+  margin-left: -1.5rem !important;
+}
+
+.ml--4,
+.mx--4 {
+  margin-left: -2rem !important;
+}
+
+.ml-6,
+.mx-6 {
+  margin-left: 6rem !important;
+}
+
+.ml-6p5,
+.mx-6p5 {
+  margin-left: 9rem !important;
+}
+
+.ml-7,
+.mx-7 {
+  margin-left: 12rem !important;
+}
+
+.ml-8,
+.mx-8 {
+  margin-left: 24rem !important;
+}
+
+.ml-8p25,
+.mx-8p25 {
+  margin-left: 30rem !important;
+}
+
+.ml-8pls,
+.mx-8pls {
+  margin-left: 32rem !important;
+}
+
+.ml-8p5,
+.mx-8p5 {
+  margin-left: 36rem !important;
+}
+
+.ml-9,
+.mx-9 {
+  margin-left: 48rem !important;
+}
+
+.ml-9p1,
+.mx-9p1 {
+  margin-left: 54rem !important;
+}
+
+.ml-9p15,
+.mx-9p15 {
+  margin-left: 57rem !important;
+}
+
+.ml-9p2,
+.mx-9p2 {
+  margin-left: 60rem !important;
+}
+
+.ml-10,
+.mx-10 {
+  margin-left: 96rem !important;
+}
+
+	/*padding-left補充定義*/
+.pl-6,
+.px-6 {
+  padding-left: 6rem !important;
+}
+
+.pl-6p4,
+.px-6p4 {
+  padding-left: 8.5rem !important;
+}
+
+.pl-6pls,
+.px-6pls {
+  padding-left: 7rem !important;
+}
+
+.pl-7,
+.px-7 {
+  padding-left: 12rem !important;
+}
+
+.pl-8,
+.px-8 {
+  padding-left: 24rem !important;
+}
+
+.pl-9,
+.px-9 {
+  padding-left: 48rem !important;
+}
+
+.pl-10,
+.px-10 {
+  padding-left: 96rem !important;
+}
+
+	/*border寬度定義區 語法:border-(1~5)px*/
+.border-1{
+	border-width: 1px !important;
+}
+
+.border-2{
+	border-width: 2px !important;
+}
+
+.border-3{
+	border-width: 3px !important;
+}
+
+.border-4{
+	border-width: 4px !important;
+}
+
+.border-5{
+	border-width: 5px !important;
+}
+	/*border顏色定義區 語法:border-color-(red,wine,green,darkgreen,blue,sky,white)*/
+.border-color-red{
+	border-color: #ff0000 !important;
+}
+
+.border-color-wine{
+	border-color: #880000 !important;
+}
+
+.border-color-green{
+	border-color: #00ff00 !important;
+}
+
+.border-color-darkgreen{
+	border-color: #005500 !important;
+}
+
+.border-color-blue{
+	border-color: #0000ff !important;
+}
+
+.border-color-sky{
+	border-color: skyblue !important;
+}
+
+.border-color-white{
+	border-color: white !important;
+}
+
+.border-color-darkgray{
+	border-color: darkgray !important;
+}
+
+.border-color-black{
+	border-color: black !important;
+}
+
+	/*border線條樣式定義區 語法:border-(dotted,solid)*/
+.border-dotted{
+	border-style: dotted;
+}	
+
+.border-solid{
+	border-style: solid;	
+}
+
+	/*背景色定義區*/
+
+/*背景顏色 #E6FCFB*/
+.lightblue{
+	background-color: #E6FCFB;
+}
+
+.lightblue-2{
+	background-color: #94FFE3;
+}
+
+
+.lightblue-3{
+	background-color: #87E6E8;
+}
+
+.watergreen{
+	background-color: #00E0C7;
+}
+
+/*背景顏色 #FFFFFF*/
+.lightgray{
+	background-color: #dee2e6;
+}
+
+.white{
+	background-color: #FFFFFF;
+}
+
+/*#2670DE*/
+.darkblue{
+	background-color: #2670DE;
+}
+
+	/*各式項目定義區*/
+/*width 百分比定義法 語法.col-percent-(10~90)*/
+.col-percent-10{
+	width:10%;
+}
+
+.col-percent-20{
+	width:20%;
+}
+
+.col-percent-26{
+	width:26%;
+}
+
+.col-percent-30{
+	width:30%;
+}
+
+.col-percent-35{
+	width:35%;
+}
+
+.col-percent-40{
+	width:40%;
+}
+
+.col-percent-45{
+	width:45%;
+}
+
+.col-percent-50{
+	width:50%;
+}
+
+.col-percent-55{
+	width:55%;
+}
+
+.col-percent-60{
+	width:60%;
+}
+
+.col-percent-70{
+	width:70%;
+}
+
+.col-percent-80{
+	width:80%;
+}
+
+.col-percent-85{
+	width:85%;
+}
+
+.col-percent-90{
+	width:90%;
+}
+
+.col-percent-100{
+	width:100%;
 }
 
 /*中文字形定義 語法:.chinese-font*/
 .chinese-font{
-    font-family: Microsoft JhengHei !important;
+	font-family: Microsoft JhengHei !important;
 }
 
-/*背景設定*/
-.bg-cover{
-    background-size: cover;
+/*定義字體大小 .text-(xs,s,m,l,xl)*/
+.text-xs{
+	font-size: 10pt;
 }
 
+.text-s{
+	font-size: 12pt;
+}
+
+.text-m{
+	font-size: 14pt;
+}
+
+.text-l{
+	font-size: 16pt;
+}
+
+.text-xl{
+	font-size: 18pt;
+}
+
+.text-title{
+	font-size: 24pt;
+}
+
+/*行高定義 語法:lh-(1~5)*/
+.lh-1{
+	line-height: 1rem;
+}
+
+.lh-1p5{
+	line-height: 1.5rem;
+}
+
+.lh-2{
+	line-height: 2rem;
+}
+
+.lh-2p1{
+	line-height: 2.1rem;
+}
+
+.lh-2p5{
+	line-height: 2.5rem;
+}
+
+.lh-3{
+	line-height: 3rem;
+}
+
+.lh-3p5{
+	line-height: 3.5rem;
+}
+
+.lh-4{
+	line-height: 4rem;
+}
+
+.lh-4p5{
+	line-height: 4.5rem;
+}
+
+.lh-5{
+	line-height: 5rem;
+}
+
+.lh-30px{
+	line-height: 30px;
+}
+
+.lh-50px{
+	line-height: 50px;
+}
+
+/*動畫效果 語法:(請見class名稱)-秒數(0p5~2)*/
+.ease-0p5{
+	transition: ease 0.5s;
+}
+
+.ease-1{
+	transition: ease 1s;
+
+}
+
+.ease-1p5{
+	transition: ease 1.5s;
+}
+
+.ease-2{
+	transition: ease 2s;
+}
+
+.linear-0p5{
+	transition: linear 0.5s;
+}
+
+.linear-1{
+	transition: linear 1s;
+
+}
+
+.linear-1p5{
+	transition: linear 1.5s;
+}
+
+.linear-2{
+	transition: linear 2s;
+}
+
+/*虛擬LED狀態燈*/
+.led-bad{
+	color:red;
+	text-shadow: -1px 1px 2px darkred;
+}
+
+.led-stillok{
+	color:orange;
+	text-shadow: -1px 1px 2px #774d00;
+}
+
+.led-normal{
+	color:yellow;
+	text-shadow: -1px 1px 2px #757500;
+}
+
+.led-good{
+	color:lightgreen;
+	text-shadow: -1px 1px 2px darkgreen;
+}
+
+/*底線-虛線*/
+.underline-dotted{
+	border-bottom: darkgray dashed 1px ;
+	height: 22px
+}
+
+/*背景圖片置中*/
 .bg-center{
-    background-position: center center;
+	background-position: center center;
+}
+
+.works img{
+	max-width:100%;
+	height: 50%
 }
 
 
 
-
-/*圖片資料區*/
-.wallpaper_photo{
-    background-image: url(https://fakeimg.pl/1900x500);
-    height: 500px;
+/*大頭照定義*/
+.profile-photo{
+	background-image: url(../img/Eric.jpg);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
 }
 
-/*navbar右側圖示*/
-.nav-icon{
-    width:30px;
+/*名字*/
+.name{
+	font-size: 25pt;
+	color:white;
 }
 
-/*navbar下拉式選單自動展開*/
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
- }
-
- .tooltip-hover:hover .tooltip{
-    opacity:1;
- }
-
-.tooltip{
-    background-color: black;
-    color:white;
-    font-family: Microsoft JhengHei !important;
-    padding:5px;
-    margin: 7px 0px 0px -8px;
-    border-radius: 5px;
-    font-size: 10px;
-    width:50px;
-    text-align: center;
+/*特製按鈕樣式*/
+.btn-outline-blue{
+  color: #2670DE;
+  background-color: white;
+  border-color: #2670DE;
 }
 
- .tooltip::before{
-    content: "";
+/*按鈕hover 特製效果*/
+.white-blue-hover:hover{
+	color:#2670DE !important;
+	background-color: white !important;
+}
+
+.blue-white-hover:hover{
+	color: white !important;
+	background-color: #2670DE !important;
+}
+
+/*聯絡方式icon 特製效果*/
+.icon{
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+}
+
+#phone{
+	background-image: url(../img/phone.png);
+}
+.phone:hover #phone{
+	background-image: url(../img/phone_hover.png);
+}
+
+#address{
+	background-image: url(../img/location.png);
+}
+.address:hover #address{
+	background-image: url(../img/location_hover.png);
+}
+
+#mail{
+	background-image: url(../img/mail.png);
+}
+.mail:hover #mail{
+	background-image: url(../img/mail_hover.png);
+}
+
+#fb{
+	background-image: url(../img/fb.png);
+}
+.fb:hover #fb{
+	background-image: url(../img/fb_hover.png);
+}
+
+#line{
+	background-image: url(../img/line.png);
+}
+.line:hover #line{
+	background-image: url(../img/line_hover.png);
+}
+
+#github{
+	background-image: url(../img/github.png);
+}
+.github:hover #github{
+	background-image: url(../img/github_hover.png);
+}
+
+/*技能圖(橫)*/
+#SkillFrame{
+			border:solid skyblue 1px;
+			width:50%;
+			height:20px;
+		}
+		[id*="SkillBar"]{
+			text-align: right;
+			width:0%;
+			height:20px;
+			transition: ease-out 3s;
+			/*background-color: skyblue;*/
+			padding-right: 10px;
+			color:white;
+		}
+/*prograss bar 特製動畫 語法: progress-bar-animated-秒數-次數*//*wating to be processed*/
+.progress-bar-animated {
+  -webkit-animation: progress-bar-strip
+es 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+/*quote border 語法:.quote-(left,right)*/
+.quote-right{
+	border-right: darkgray 3px solid;
+}
+
+.quote-left{
+	border-left: darkgray 3px solid;
+}
+
+/*陰影補充定義*/
+.shadow-super{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/*學習經歷照片*/
+#up1_photo{
+	background-image: url(../img/up1.jpg);
+	background-size: cover;
+	width:100%;
+	height:300px;
+	transition: ease 0.5s;
+}
+
+#up1_photo::before{
+	content:"一起溫暖桃園 \A 2017.12.23";
+	background-image: url(../img/up1_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 4rem; 
+	transition: ease 1s;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	opacity:0;
+}
+
+#up1_photo:hover::before{
+	opacity: 1;
+}
+
+#down1_photo{
+	background-image: url(../img/down1.jpg);
+	background-size: cover;
+	width:100%;
+	height:300px;
+}
+
+
+#down1_photo::before{
+	content:"薑就對了 \A 2018.4~2018.5";
+	background-image: url(../img/down1_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 4rem; 
+	transition: ease 1s;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	opacity:0;
+}
+
+#down1_photo:hover::before{
+	opacity: 1;
+}
+
+/*時間痕高度*/
+.timeline{
+	height:70px;
+	justify-content: space-around;
+}
+
+/*時間痕跡圖片*/
+[id*="school"]{
+	background-size: cover;
+	width:60px;
+	height:60px;
+}
+
+#school1{
+	background-image: url(../img/school1.png);
+	
+}
+#school2{
+	background-image: url(../img/school2.png);
+}
+#school3{
+	background-image: url(../img/school3.png);
+}
+#school4{
+	background-image: url(../img/school4.png);
+}
+
+/*作品集狀態tooltip*/
+.right-tooltip{
+	background-color: black;
+	color:white;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 10px;
+	margin-left: 6px;
+	opacity:0;
+	transition: ease 0.5s;
+}
+
+.right-tooltip::before{
+	content: "";
     position: absolute;
-    margin: -15px 0px 0px 13px;
+	border-width: 5px;
+    border-style: solid;
+    margin-top: 3px;
+    margin-left: -15px;
+    border-color: transparent black transparent transparent;
+}
+
+.status:hover .right-tooltip{
+	opacity: 1;
+}
+
+/*時間的痕跡tooltip*/
+.auto-top-tooltip{
+	background: black;
+	color:white;
+	border-radius: 7px;
+	padding:5px;
+	font-size: 12px;
+	margin-top: 65px;
+    position: absolute;
+}
+
+.auto-top-tooltip::after{
+	content: "";
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -28px;
     border-width: 5px;
     border-style: solid;
-    border-color:transparent transparent black transparent;
- }
+    border-color: transparent transparent black transparent;
+}
+
+.auto-bottom-tooltip{
+	background: black;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: -32px;
+    position: absolute;
+}
+
+.auto-bottom-tooltip::after{
+	content: "";
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -28px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+#ele{
+	animation: elementry 8s infinite;
+}
+
+@keyframes elementry{
+	0%{ opacity: 0; }
+	5%{opacity: 1; }
+	20%{opacity: 1; }
+	25%{opacity: 0; }
+	100%{opacity:0; }
+}
+
+#jun{
+	animation: junior 8s infinite;
+}
+
+@keyframes junior{
+	0%{ opacity: 0; }
+	25%{opacity: 0; }
+	30%{opacity: 1; }
+	45%{opacity: 1; }
+	50%{opacity: 0; }
+	100%{opacity:0; }
+}
+
+#hig{
+	animation: high 8s infinite;
+}
+
+@keyframes high{
+	0%{ opacity: 0; }
+	50%{opacity: 0; }
+	55%{opacity: 1; }
+	70%{opacity: 1; }
+	75%{opacity: 0; }
+	100%{opacity:0; }
+}
+
+#col{
+	animation: colege 8s infinite;
+}
+
+@keyframes colege{
+	0%{ opacity: 0; }
+	75%{ opacity: 0; }
+	80%{ opacity: 1; }
+	95%{opacity: 1; }
+	100%{opacity:0; }
+}
+
+/*水平線粗細 語法:hr-類型*/
+.hr-timeline{
+	background-color: darkgray;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: -41px;
+    margin-left:2px;
+}
+
+.hr-right-splitter{
+	border-right: 2.5px darkgray double;
+}
+
+	/*社團區照片*/
+/*社團介紹*/
+.club[id*="_photo"]{
+	height: 200px;
+	width:300%;
+	background-size: cover;
+}
+
+/*聖誕慈善嘉年華*/
+#chirstmas_photo{
+	background-image: url(../img/sd.jpg);
+	min-width: 258.41px !important;
+}
+
+#chirstmas_photo::before{
+	content:"一起溫暖桃園 \A 2018.12.23";
+	background-image: url(../img/sd_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#chirstmas_photo:hover::before{
+	opacity: 1;
+}
+
+
+/*親子慈善園遊會*/
+#market_photo{
+	background-image: url(../img/yy.jpg);
+	max-width: 258.41px !important;
+}
+
+#market_photo::before{
+	content:"親子慈善園遊會 \A 2019.4.21";
+	background-image: url(../img/yy_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#market_photo:hover::before{
+	opacity: 1;
+}
+
+/*誰是中原人*/
+#welcome_photo{
+	background-image: url(../img/ss.jpg);
+	min-width: 258.41px !important;
+}
+
+#welcome_photo::before{
+	content:"誰是中原人 \A 2018.8.13~15";
+	background-image: url(../img/ss_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#welcome_photo:hover::before{
+	opacity: 1;
+}
+
+/*弗丁的科學實驗室*/
+#summercamp_photo{
+	background-image: url(../img/fd.jpg);
+	max-width: 258.41px !important;
+}
+
+#summercamp_photo::before{
+	content:"弗丁科學實驗室 \A 2019.1.22~24";
+	background-image: url(../img/fd_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#summercamp_photo:hover::before{
+	opacity: 1;
+}
+
+	/*我的興趣圖片*/
+
+/*寫程式*/
+.card-img-top{
+	background-size: cover;
+	width:100%;
+	min-height:278.68px;
+}
+
+#coding{
+	background-image: url(../img/coding.jpg);
+}
+
+#coding::before{
+	content:"- SoloLearn -";
+	background-image: url(../img/coding_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	
+	font-size: 2.5rem; 
+	transition: ease 1s;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	opacity:0;
+}
+
+#coding:hover::before{
+	opacity: 1;
+}
+
+/*吸收冷知識*/
+#knowledge{
+	background-image: url(../img/knowledge.jpg);
+}
+
+#knowledge::before{
+	content:"- YouTube -";
+	background-image: url(../img/knowledge_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre;
+	
+	font-size: 2.5rem; 
+	transition: ease 1s;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	opacity:0;
+}
+
+#knowledge:hover::before{
+	opacity: 1;
+}
+
+/*出外踏青*/
+#hiking{
+	background-image: url(../img/ps.jpg);
+}
+
+#hiking::before{
+	content:"- 皇帝殿 -";
+	background-image: url(../img/ps_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre; 
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	opacity:0;
+}
+
+#hiking:hover::before{
+	opacity: 1;
+}
+
+/*錯誤防止專用div*/
+.height-0{
+	height: 0;
+	width:0;
+}
+.after-height-factor{
+	width:0;
+	min-height:480px;
+}
+
+.anchor-position-alter{
+	padding-top: 60px;
+	width:0;
+	height:0;
+	z-index: -1;
+}
+
+	/*作品集照片*/
+
+/*個人網頁*/
+.works[id*="_photo"]{
+	background-size: cover;
+	width:50%;
+	min-height:278.68px;
+}
+
+#Aboutme_photo{
+	background-image: url(../img/self_intro.png);
+}
+
+#Aboutme_photo::before{
+	content:"- 冠廷の小栈 -";
+	background-image: url(../img/self_intro_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre; 
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#Aboutme_photo:hover::before{
+	opacity: 1;
+}
+
+/*中原大學，我們的第二個家*/
+#midterm_photo{
+	background-image: url(../img/midterm.png);
+}
+
+#midterm_photo::before{
+	content:"- 中原大學，我們的第二個家 -";
+	background-image: url(../img/midterm_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre; 
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#midterm_photo:hover::before{
+	opacity: 1;
+}
+
+
+/*回味無窮的義大利之旅*/
+#trip_photo{
+	background-image: url(../img/trip.png);
+}
+
+#trip_photo::before{
+	content:"- 回味無窮的義大利之旅 -";
+	background-image: url(../img/trip_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre; 
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#trip_photo:hover::before{
+	opacity: 1;
+}
+
+
+/*嗨翻天俱樂部*/
+#junior_photo{
+	background-image: url(../img/junior.png);
+}
+
+#junior_photo::after{
+	content:"- 冠廷的嗨翻天俱樂部 -";
+	background-image: url(../img/junior_dark.png);
+	background-size: cover;
+	display: flex;
+	color:white;
+	height: 100%;
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	white-space: pre; 
+	font-family:Microsoft JhengHei !important;
+	font-size: 2rem; 
+	transition: ease 1s;
+	border-radius: 1rem;
+	opacity:0;
+}
+
+#junior_photo:hover::after{
+	opacity: 1;
+}
+
+/*logo設定*/
+.logo{
+	height:23px;
+	padding:0;
+	margin:0;
+}
+
+/*footer*/
+.cpr{
+	height: 15px;
+	margin-top:-5px;
+	margin-left:3px;
+}
